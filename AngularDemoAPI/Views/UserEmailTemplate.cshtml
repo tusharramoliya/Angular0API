@@ -1,0 +1,20 @@
+﻿@model WebApi.DBContext.DBModel.User
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Email for registered user</title>
+</head>
+
+<body>
+    <div>
+        <center><h2>Test Demo</h2></center>
+        <br />
+        <center>
+            <h4>Congratulations! You are registered.</h4>
+        </center>
+        <br />
+        <p>Hello @(Model.FirstName + " " + Model.LastName),</p>
+        <p>Thanks for registration.</p>
+    </div>
+</body>
+</html>
